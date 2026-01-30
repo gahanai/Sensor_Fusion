@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'wheel_odometry_publisher = robot_localization_fusion.wheel_odometry_publisher:main',
         ],
     },
 )

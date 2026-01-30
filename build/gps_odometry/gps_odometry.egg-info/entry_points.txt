@@ -1,0 +1,2 @@
+[console_scripts]
+gps_odometry_node = gps_odometry.gps_odometry_node:main

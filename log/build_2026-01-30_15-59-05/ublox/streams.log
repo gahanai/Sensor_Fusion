@@ -1,0 +1,48 @@
+[0.008s] Invoking command in '/home/dell/sensor_fusion/build/ublox': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_gps/lib:/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/ublox
+[0.011s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.011s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.011s]   CMake.
+[0.011s] 
+[0.011s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.011s]   to tell CMake that the project requires at least <min> but has been updated
+[0.011s]   to work with policies introduced by <max> or earlier.
+[0.011s] 
+[0.012s] [0m
+[0.045s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.099s] -- Detecting C compiler ABI info
+[0.143s] -- Detecting C compiler ABI info - done
+[0.156s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.156s] -- Detecting C compile features
+[0.157s] -- Detecting C compile features - done
+[0.165s] -- Detecting CXX compiler ABI info
+[0.217s] -- Detecting CXX compiler ABI info - done
+[0.231s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.231s] -- Detecting CXX compile features
+[0.232s] -- Detecting CXX compile features - done
+[0.238s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.346s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.476s] -- Configuring done (0.5s)
+[0.479s] -- Generating done (0.0s)
+[0.480s] -- Build files have been written to: /home/dell/sensor_fusion/build/ublox
+[0.485s] Invoked command in '/home/dell/sensor_fusion/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_gps/lib:/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/ublox
+[0.487s] Invoking command in '/home/dell/sensor_fusion/build/ublox': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_gps/lib:/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dell/sensor_fusion/build/ublox -- -j16 -l16
+[0.500s] Invoked command in '/home/dell/sensor_fusion/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_gps/lib:/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dell/sensor_fusion/build/ublox -- -j16 -l16
+[0.501s] Invoking command in '/home/dell/sensor_fusion/build/ublox': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_gps/lib:/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dell/sensor_fusion/build/ublox
+[0.503s] -- Install configuration: ""
+[0.503s] -- Installing: /home/dell/sensor_fusion/install/ublox/share/ament_index/resource_index/package_run_dependencies/ublox
+[0.504s] -- Installing: /home/dell/sensor_fusion/install/ublox/share/ament_index/resource_index/parent_prefix_path/ublox
+[0.504s] -- Installing: /home/dell/sensor_fusion/install/ublox/share/ublox/environment/ament_prefix_path.sh
+[0.504s] -- Installing: /home/dell/sensor_fusion/install/ublox/share/ublox/environment/ament_prefix_path.dsv
+[0.504s] -- Installing: /home/dell/sensor_fusion/install/ublox/share/ublox/environment/path.sh
+[0.504s] -- Installing: /home/dell/sensor_fusion/install/ublox/share/ublox/environment/path.dsv
+[0.504s] -- Installing: /home/dell/sensor_fusion/install/ublox/share/ublox/local_setup.bash
+[0.504s] -- Installing: /home/dell/sensor_fusion/install/ublox/share/ublox/local_setup.sh
+[0.504s] -- Installing: /home/dell/sensor_fusion/install/ublox/share/ublox/local_setup.zsh
+[0.504s] -- Installing: /home/dell/sensor_fusion/install/ublox/share/ublox/local_setup.dsv
+[0.504s] -- Installing: /home/dell/sensor_fusion/install/ublox/share/ublox/package.dsv
+[0.504s] -- Installing: /home/dell/sensor_fusion/install/ublox/share/ament_index/resource_index/packages/ublox
+[0.505s] -- Installing: /home/dell/sensor_fusion/install/ublox/share/ublox/cmake/ubloxConfig.cmake
+[0.505s] -- Installing: /home/dell/sensor_fusion/install/ublox/share/ublox/cmake/ubloxConfig-version.cmake
+[0.505s] -- Installing: /home/dell/sensor_fusion/install/ublox/share/ublox/package.xml
+[0.506s] Invoked command in '/home/dell/sensor_fusion/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_gps/lib:/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dell/sensor_fusion/build/ublox

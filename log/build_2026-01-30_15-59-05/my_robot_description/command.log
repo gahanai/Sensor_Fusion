@@ -1,0 +1,6 @@
+Invoking command in '/home/dell/sensor_fusion/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/my_robot_description
+Invoked command in '/home/dell/sensor_fusion/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/my_robot_description
+Invoking command in '/home/dell/sensor_fusion/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/my_robot_description -- -j16 -l16
+Invoked command in '/home/dell/sensor_fusion/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/my_robot_description -- -j16 -l16
+Invoking command in '/home/dell/sensor_fusion/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/my_robot_description
+Invoked command in '/home/dell/sensor_fusion/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/my_robot_description

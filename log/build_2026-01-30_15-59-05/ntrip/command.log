@@ -1,0 +1,6 @@
+Invoking command in '/home/dell/sensor_fusion/build/ntrip': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/ntrip -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/ntrip
+Invoked command in '/home/dell/sensor_fusion/build/ntrip' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/ntrip -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/ntrip
+Invoking command in '/home/dell/sensor_fusion/build/ntrip': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/ntrip -- -j16 -l16
+Invoked command in '/home/dell/sensor_fusion/build/ntrip' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/ntrip -- -j16 -l16
+Invoking command in '/home/dell/sensor_fusion/build/ntrip': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/ntrip
+Invoked command in '/home/dell/sensor_fusion/build/ntrip' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/ntrip

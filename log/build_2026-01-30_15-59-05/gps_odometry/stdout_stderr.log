@@ -1,0 +1,32 @@
+/home/dell/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+creating ../../build/gps_odometry/gps_odometry.egg-info
+writing ../../build/gps_odometry/gps_odometry.egg-info/PKG-INFO
+writing dependency_links to ../../build/gps_odometry/gps_odometry.egg-info/dependency_links.txt
+writing entry points to ../../build/gps_odometry/gps_odometry.egg-info/entry_points.txt
+writing requirements to ../../build/gps_odometry/gps_odometry.egg-info/requires.txt
+writing top-level names to ../../build/gps_odometry/gps_odometry.egg-info/top_level.txt
+writing manifest file '../../build/gps_odometry/gps_odometry.egg-info/SOURCES.txt'
+writing manifest file '../../build/gps_odometry/gps_odometry.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/dell/sensor_fusion/build/gps_odometry/build/lib/gps_odometry
+copying gps_odometry/__init__.py -> /home/dell/sensor_fusion/build/gps_odometry/build/lib/gps_odometry
+copying gps_odometry/gps_odometry_node.py -> /home/dell/sensor_fusion/build/gps_odometry/build/lib/gps_odometry
+running install
+running install_lib
+creating /home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages/gps_odometry
+copying /home/dell/sensor_fusion/build/gps_odometry/build/lib/gps_odometry/__init__.py -> /home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages/gps_odometry
+copying /home/dell/sensor_fusion/build/gps_odometry/build/lib/gps_odometry/gps_odometry_node.py -> /home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages/gps_odometry
+byte-compiling /home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages/gps_odometry/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages/gps_odometry/gps_odometry_node.py to gps_odometry_node.cpython-310.pyc
+running install_data
+creating /home/dell/sensor_fusion/install/gps_odometry/share/ament_index/resource_index/packages
+copying resource/gps_odometry -> /home/dell/sensor_fusion/install/gps_odometry/share/ament_index/resource_index/packages
+copying package.xml -> /home/dell/sensor_fusion/install/gps_odometry/share/gps_odometry
+running install_egg_info
+Copying ../../build/gps_odometry/gps_odometry.egg-info to /home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages/gps_odometry-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gps_odometry_node script to /home/dell/sensor_fusion/install/gps_odometry/lib/gps_odometry
+writing list of installed files to '/home/dell/sensor_fusion/build/gps_odometry/install.log'

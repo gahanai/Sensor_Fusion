@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/dell/sensor_fusion/build/xsens_mti_ros2_driver/cmake_install.cmake",
+		"/home/dell/sensor_fusion/build/xsens_mti_ros2_driver/xsens_mti_ros2_driver__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

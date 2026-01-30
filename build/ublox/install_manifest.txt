@@ -1,0 +1,15 @@
+/home/dell/sensor_fusion/install/ublox/share/ament_index/resource_index/package_run_dependencies/ublox
+/home/dell/sensor_fusion/install/ublox/share/ament_index/resource_index/parent_prefix_path/ublox
+/home/dell/sensor_fusion/install/ublox/share/ublox/environment/ament_prefix_path.sh
+/home/dell/sensor_fusion/install/ublox/share/ublox/environment/ament_prefix_path.dsv
+/home/dell/sensor_fusion/install/ublox/share/ublox/environment/path.sh
+/home/dell/sensor_fusion/install/ublox/share/ublox/environment/path.dsv
+/home/dell/sensor_fusion/install/ublox/share/ublox/local_setup.bash
+/home/dell/sensor_fusion/install/ublox/share/ublox/local_setup.sh
+/home/dell/sensor_fusion/install/ublox/share/ublox/local_setup.zsh
+/home/dell/sensor_fusion/install/ublox/share/ublox/local_setup.dsv
+/home/dell/sensor_fusion/install/ublox/share/ublox/package.dsv
+/home/dell/sensor_fusion/install/ublox/share/ament_index/resource_index/packages/ublox
+/home/dell/sensor_fusion/install/ublox/share/ublox/cmake/ubloxConfig.cmake
+/home/dell/sensor_fusion/install/ublox/share/ublox/cmake/ubloxConfig-version.cmake
+/home/dell/sensor_fusion/install/ublox/share/ublox/package.xml

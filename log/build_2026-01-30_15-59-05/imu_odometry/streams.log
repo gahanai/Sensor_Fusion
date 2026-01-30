@@ -1,0 +1,51 @@
+[0.812s] Invoking command in '/home/dell/sensor_fusion/src/imu_odometry': PYTHONPATH=/home/dell/sensor_fusion/build/imu_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_odometry build --build-base /home/dell/sensor_fusion/build/imu_odometry/build install --record /home/dell/sensor_fusion/build/imu_odometry/install.log --single-version-externally-managed install_data
+[1.071s] running egg_info
+[1.091s] creating ../../build/imu_odometry/imu_odometry.egg-info
+[1.091s] writing ../../build/imu_odometry/imu_odometry.egg-info/PKG-INFO
+[1.092s] writing dependency_links to ../../build/imu_odometry/imu_odometry.egg-info/dependency_links.txt
+[1.092s] writing entry points to ../../build/imu_odometry/imu_odometry.egg-info/entry_points.txt
+[1.092s] writing requirements to ../../build/imu_odometry/imu_odometry.egg-info/requires.txt
+[1.092s] writing top-level names to ../../build/imu_odometry/imu_odometry.egg-info/top_level.txt
+[1.092s] writing manifest file '../../build/imu_odometry/imu_odometry.egg-info/SOURCES.txt'
+[1.303s] writing manifest file '../../build/imu_odometry/imu_odometry.egg-info/SOURCES.txt'
+[1.303s] running build
+[1.303s] running build_py
+[1.303s] creating /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry
+[1.304s] copying imu_odometry/analyze_imu.py -> /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry
+[1.304s] copying imu_odometry/no_drift.py -> /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry
+[1.304s] copying imu_odometry/__init__.py -> /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry
+[1.304s] copying imu_odometry/odom.py -> /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry
+[1.305s] copying imu_odometry/visual_test.py -> /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry
+[1.305s] copying imu_odometry/imu_odometry_xsens.py -> /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry
+[1.305s] copying imu_odometry/pure_imu_odometry_validator.py -> /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry
+[1.305s] copying imu_odometry/imu_bias_calibration.py -> /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry
+[1.306s] running install
+[1.313s] running install_lib
+[1.339s] creating /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry
+[1.339s] copying /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry/analyze_imu.py -> /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry
+[1.340s] copying /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry/no_drift.py -> /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry
+[1.340s] copying /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry/__init__.py -> /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry
+[1.340s] copying /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry/odom.py -> /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry
+[1.340s] copying /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry/visual_test.py -> /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry
+[1.340s] copying /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry/imu_odometry_xsens.py -> /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry
+[1.341s] copying /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry/pure_imu_odometry_validator.py -> /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry
+[1.341s] copying /home/dell/sensor_fusion/build/imu_odometry/build/lib/imu_odometry/imu_bias_calibration.py -> /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry
+[1.341s] byte-compiling /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry/analyze_imu.py to analyze_imu.cpython-310.pyc
+[1.344s] byte-compiling /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry/no_drift.py to no_drift.cpython-310.pyc
+[1.348s] byte-compiling /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry/__init__.py to __init__.cpython-310.pyc
+[1.348s] byte-compiling /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry/odom.py to odom.cpython-310.pyc
+[1.351s] byte-compiling /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry/visual_test.py to visual_test.cpython-310.pyc
+[1.355s] byte-compiling /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry/imu_odometry_xsens.py to imu_odometry_xsens.cpython-310.pyc
+[1.357s] byte-compiling /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry/pure_imu_odometry_validator.py to pure_imu_odometry_validator.cpython-310.pyc
+[1.358s] byte-compiling /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry/imu_bias_calibration.py to imu_bias_calibration.cpython-310.pyc
+[1.360s] running install_data
+[1.360s] creating /home/dell/sensor_fusion/install/imu_odometry/share/ament_index/resource_index/packages
+[1.360s] copying resource/imu_odometry -> /home/dell/sensor_fusion/install/imu_odometry/share/ament_index/resource_index/packages
+[1.360s] copying package.xml -> /home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry
+[1.361s] running install_egg_info
+[1.377s] Copying ../../build/imu_odometry/imu_odometry.egg-info to /home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages/imu_odometry-0.0.0-py3.10.egg-info
+[1.377s] running install_scripts
+[1.411s] Installing imu_odometry_xsens script to /home/dell/sensor_fusion/install/imu_odometry/bin
+[1.411s] Installing odom script to /home/dell/sensor_fusion/install/imu_odometry/bin
+[1.411s] writing list of installed files to '/home/dell/sensor_fusion/build/imu_odometry/install.log'
+[1.433s] Invoked command in '/home/dell/sensor_fusion/src/imu_odometry' returned '0': PYTHONPATH=/home/dell/sensor_fusion/build/imu_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_odometry build --build-base /home/dell/sensor_fusion/build/imu_odometry/build install --record /home/dell/sensor_fusion/build/imu_odometry/install.log --single-version-externally-managed install_data

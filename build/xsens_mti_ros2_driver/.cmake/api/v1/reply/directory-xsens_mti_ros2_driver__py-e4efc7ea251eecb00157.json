@@ -1,0 +1,19 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"codemodelVersion" : 
+	{
+		"major" : 2,
+		"minor" : 9
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "xsens_mti_ros2_driver__py",
+		"source" : "/home/dell/sensor_fusion/build/xsens_mti_ros2_driver/xsens_mti_ros2_driver__py"
+	}
+}

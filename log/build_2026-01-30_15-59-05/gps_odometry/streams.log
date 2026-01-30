@@ -1,0 +1,34 @@
+[0.625s] Invoking command in '/home/dell/sensor_fusion/src/gps_odometry': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/build/gps_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages:/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_odometry build --build-base /home/dell/sensor_fusion/build/gps_odometry/build install --record /home/dell/sensor_fusion/build/gps_odometry/install.log --single-version-externally-managed install_data
+[0.763s] /home/dell/.local/lib/python3.10/site-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.763s]   warnings.warn(msg)
+[0.859s] running egg_info
+[0.873s] creating ../../build/gps_odometry/gps_odometry.egg-info
+[0.874s] writing ../../build/gps_odometry/gps_odometry.egg-info/PKG-INFO
+[0.874s] writing dependency_links to ../../build/gps_odometry/gps_odometry.egg-info/dependency_links.txt
+[0.874s] writing entry points to ../../build/gps_odometry/gps_odometry.egg-info/entry_points.txt
+[0.874s] writing requirements to ../../build/gps_odometry/gps_odometry.egg-info/requires.txt
+[0.874s] writing top-level names to ../../build/gps_odometry/gps_odometry.egg-info/top_level.txt
+[0.874s] writing manifest file '../../build/gps_odometry/gps_odometry.egg-info/SOURCES.txt'
+[1.067s] writing manifest file '../../build/gps_odometry/gps_odometry.egg-info/SOURCES.txt'
+[1.067s] running build
+[1.067s] running build_py
+[1.067s] creating /home/dell/sensor_fusion/build/gps_odometry/build/lib/gps_odometry
+[1.068s] copying gps_odometry/__init__.py -> /home/dell/sensor_fusion/build/gps_odometry/build/lib/gps_odometry
+[1.068s] copying gps_odometry/gps_odometry_node.py -> /home/dell/sensor_fusion/build/gps_odometry/build/lib/gps_odometry
+[1.068s] running install
+[1.072s] running install_lib
+[1.088s] creating /home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages/gps_odometry
+[1.088s] copying /home/dell/sensor_fusion/build/gps_odometry/build/lib/gps_odometry/__init__.py -> /home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages/gps_odometry
+[1.088s] copying /home/dell/sensor_fusion/build/gps_odometry/build/lib/gps_odometry/gps_odometry_node.py -> /home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages/gps_odometry
+[1.088s] byte-compiling /home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages/gps_odometry/__init__.py to __init__.cpython-310.pyc
+[1.088s] byte-compiling /home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages/gps_odometry/gps_odometry_node.py to gps_odometry_node.cpython-310.pyc
+[1.090s] running install_data
+[1.090s] creating /home/dell/sensor_fusion/install/gps_odometry/share/ament_index/resource_index/packages
+[1.090s] copying resource/gps_odometry -> /home/dell/sensor_fusion/install/gps_odometry/share/ament_index/resource_index/packages
+[1.091s] copying package.xml -> /home/dell/sensor_fusion/install/gps_odometry/share/gps_odometry
+[1.091s] running install_egg_info
+[1.105s] Copying ../../build/gps_odometry/gps_odometry.egg-info to /home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages/gps_odometry-0.0.0-py3.10.egg-info
+[1.106s] running install_scripts
+[1.137s] Installing gps_odometry_node script to /home/dell/sensor_fusion/install/gps_odometry/lib/gps_odometry
+[1.138s] writing list of installed files to '/home/dell/sensor_fusion/build/gps_odometry/install.log'
+[1.155s] Invoked command in '/home/dell/sensor_fusion/src/gps_odometry' returned '0': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/build/gps_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages:/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_odometry build --build-base /home/dell/sensor_fusion/build/gps_odometry/build install --record /home/dell/sensor_fusion/build/gps_odometry/install.log --single-version-externally-managed install_data

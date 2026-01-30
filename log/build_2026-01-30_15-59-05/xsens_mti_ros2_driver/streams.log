@@ -1,0 +1,318 @@
+[0.405s] Invoking command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/xsens_mti_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/xsens_mti_ros2_driver
+[0.407s] [0mCMake Deprecation Warning at CMakeLists.txt:2 (cmake_minimum_required):
+[0.407s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.407s]   CMake.
+[0.407s] 
+[0.407s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.407s]   to tell CMake that the project requires at least <min> but has been updated
+[0.407s]   to work with policies introduced by <max> or earlier.
+[0.407s] 
+[0.408s] [0m
+[0.443s] -- The C compiler identification is GNU 11.4.0
+[0.510s] -- The CXX compiler identification is GNU 11.4.0
+[0.516s] -- Detecting C compiler ABI info
+[0.568s] -- Detecting C compiler ABI info - done
+[0.583s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.583s] -- Detecting C compile features
+[0.584s] -- Detecting C compile features - done
+[0.594s] -- Detecting CXX compiler ABI info
+[0.659s] -- Detecting CXX compiler ABI info - done
+[0.676s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.676s] -- Detecting CXX compile features
+[0.677s] -- Detecting CXX compile features - done
+[0.684s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.815s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.901s] -- Found rclcpp: 16.0.17 (/opt/ros/humble/share/rclcpp/cmake)
+[0.944s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.948s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.957s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.969s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.987s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.036s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.039s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.111s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[1.142s] -- Found FastRTPS: /opt/ros/humble/include
+[1.184s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.192s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.248s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.249s] -- Found Threads: TRUE
+[1.328s] -- Found tf2: 0.25.18 (/opt/ros/humble/share/tf2/cmake)
+[1.358s] -- Found tf2_ros: 0.25.18 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.480s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.506s] -- Found nmea_msgs: 2.0.0 (/opt/ros/humble/share/nmea_msgs/cmake)
+[1.524s] -- Found mavros_msgs: 2.14.0 (/opt/ros/humble/share/mavros_msgs/cmake)
+[1.596s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.992s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.656s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.919s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.921s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[2.921s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.921s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.921s]   the cmake_policy command to set the policy and suppress this warning.
+[2.921s] 
+[2.921s] Call Stack (most recent call first):
+[2.921s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.921s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.921s]   CMakeLists.txt:33 (rosidl_generate_interfaces)
+[2.921s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.921s] [0m
+[2.939s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6")
+[2.941s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.941s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[2.941s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.941s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.942s]   the cmake_policy command to set the policy and suppress this warning.
+[2.942s] 
+[2.942s] Call Stack (most recent call first):
+[2.942s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.942s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.942s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.942s]   CMakeLists.txt:33 (rosidl_generate_interfaces)
+[2.942s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.942s] [0m
+[2.960s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[2.961s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.961s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.961s]   the cmake_policy command to set the policy and suppress this warning.
+[2.961s] 
+[2.961s] Call Stack (most recent call first):
+[2.961s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.961s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.961s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.961s]   CMakeLists.txt:33 (rosidl_generate_interfaces)
+[2.961s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.962s] [0m
+[2.968s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5")
+[2.968s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.969s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.969s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.987s] -- Found PythonExtra: .so
+[3.054s] -- Configuring done (2.6s)
+[3.105s] -- Generating done (0.1s)
+[3.153s] -- Build files have been written to: /home/dell/sensor_fusion/build/xsens_mti_ros2_driver
+[3.166s] Invoked command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/xsens_mti_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/xsens_mti_ros2_driver
+[3.167s] Invoking command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/xsens_mti_ros2_driver -- -j16 -l16
+[3.184s] [  2%] [1m[34mGenerating C code for ROS interfaces[0m
+[3.189s] [  4%] [1m[34mCreating directories for 'xspublic'[0m
+[3.189s] [  6%] [1m[34mGenerating C++ code for ROS interfaces[0m
+[3.191s] [  6%] Built target ament_cmake_python_copy_xsens_mti_ros2_driver
+[3.197s] [  8%] [1m[34mNo download step for 'xspublic'[0m
+[3.205s] [ 10%] [1m[34mNo update step for 'xspublic'[0m
+[3.213s] [ 13%] [1m[34mNo patch step for 'xspublic'[0m
+[3.222s] [ 15%] [1m[34mNo configure step for 'xspublic'[0m
+[3.232s] [ 17%] [1m[34mPerforming build step for 'xspublic'[0m
+[3.233s] make[3]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+[3.246s] [ 19%] [1m[34mNo install step for 'xspublic'[0m
+[3.256s] [ 21%] [1m[34mCompleted 'xspublic'[0m
+[3.268s] [ 21%] Built target xspublic
+[3.424s] running egg_info
+[3.442s] creating xsens_mti_ros2_driver.egg-info
+[3.442s] writing xsens_mti_ros2_driver.egg-info/PKG-INFO
+[3.443s] writing dependency_links to xsens_mti_ros2_driver.egg-info/dependency_links.txt
+[3.443s] writing top-level names to xsens_mti_ros2_driver.egg-info/top_level.txt
+[3.443s] writing manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'
+[3.521s] [ 23%] [32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_c.dir/rosidl_generator_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.c.o[0m
+[3.521s] [ 23%] Built target xsens_mti_ros2_driver__cpp
+[3.526s] [ 26%] [1m[34mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.526s] [ 28%] [1m[34mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.526s] [ 30%] [1m[34mGenerating C++ introspection for ROS interfaces[0m
+[3.560s] [ 32%] [1m[32mLinking C shared library libxsens_mti_ros2_driver__rosidl_generator_c.so[0m
+[3.583s] [ 32%] Built target xsens_mti_ros2_driver__rosidl_generator_c
+[3.589s] [ 39%] [1m[34mGenerating C type support dispatch for ROS interfaces[0m
+[3.589s] [ 39%] [1m[34mGenerating C introspection for ROS interfaces[0m
+[3.590s] [ 39%] [1m[34mGenerating C type support for eProsima Fast-RTPS[0m
+[3.708s] reading manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'
+[3.709s] writing manifest file 'xsens_mti_ros2_driver.egg-info/SOURCES.txt'
+[3.734s] [ 39%] Built target ament_cmake_python_build_xsens_mti_ros2_driver_egg
+[3.886s] [ 41%] [32mBuilding CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/xsens_mti_ros2_driver/msg/xs_status_word__type_support.cpp.o[0m
+[3.914s] [ 43%] [32mBuilding CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/xsens_mti_ros2_driver/msg/detail/dds_fastrtps/xs_status_word__type_support.cpp.o[0m
+[3.922s] [ 45%] [32mBuilding CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_c.dir/rosidl_typesupport_c/xsens_mti_ros2_driver/msg/xs_status_word__type_support.cpp.o[0m
+[3.946s] [ 47%] [1m[32mLinking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_c.so[0m
+[3.977s] [ 47%] Built target xsens_mti_ros2_driver__rosidl_typesupport_c
+[4.028s] [ 50%] [32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.c.o[0m
+[4.056s] [ 52%] [1m[32mLinking C shared library libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so[0m
+[4.072s] [ 54%] [32mBuilding CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.cpp.o[0m
+[4.082s] [ 54%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c
+[4.142s] [ 56%] [32mBuilding CXX object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support_c.cpp.o[0m
+[4.164s] [ 58%] [1m[32mLinking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so[0m
+[4.194s] [ 58%] Built target xsens_mti_ros2_driver__rosidl_typesupport_cpp
+[4.332s] [ 60%] [1m[32mLinking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.397s] [ 60%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp
+[4.448s] [ 63%] [1m[32mLinking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so[0m
+[4.478s] [ 63%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp
+[4.482s] [ 65%] [1m[32mLinking CXX shared library libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so[0m
+[4.540s] [ 65%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c
+[4.550s] [ 65%] Built target xsens_mti_ros2_driver
+[4.560s] [ 67%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/main.cpp.o[0m
+[4.560s] [ 69%] [1m[34mGenerating Python code for ROS interfaces[0m
+[4.560s] [ 73%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdacallback.cpp.o[0m
+[4.561s] [ 73%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xdainterface.cpp.o[0m
+[4.561s] [ 76%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_time_handler.cpp.o[0m
+[4.561s] [ 78%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/xsens_log_handler.cpp.o[0m
+[4.561s] [ 80%] [32mBuilding CXX object CMakeFiles/xsens_mti_node.dir/src/ntrip_util.cpp.o[0m
+[5.223s] [ 80%] Built target xsens_mti_ros2_driver__py
+[5.235s] [ 82%] [32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_generator_py.dir/rosidl_generator_py/xsens_mti_ros2_driver/msg/_xs_status_word_s.c.o[0m
+[5.354s] [ 84%] [1m[32mLinking C shared library rosidl_generator_py/xsens_mti_ros2_driver/libxsens_mti_ros2_driver__rosidl_generator_py.so[0m
+[5.385s] [ 84%] Built target xsens_mti_ros2_driver__rosidl_generator_py
+[5.399s] [ 89%] [32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_c.c.o[0m
+[5.400s] [ 89%] [32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.400s] [ 91%] [32mBuilding C object CMakeFiles/xsens_mti_ros2_driver__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.496s] [ 93%] [1m[32mLinking C shared library rosidl_generator_py/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.526s] [ 93%] Built target xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c__pyext
+[5.556s] [ 95%] [1m[32mLinking C shared library rosidl_generator_py/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.558s] [ 97%] [1m[32mLinking C shared library rosidl_generator_py/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.586s] [ 97%] Built target xsens_mti_ros2_driver__rosidl_typesupport_c__pyext
+[5.592s] [ 97%] Built target xsens_mti_ros2_driver__rosidl_typesupport_introspection_c__pyext
+[19.350s] [100%] [1m[32mLinking CXX executable xsens_mti_node[0m
+[20.230s] [100%] Built target xsens_mti_node
+[20.235s] Invoked command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/xsens_mti_ros2_driver -- -j16 -l16
+[20.237s] Invoking command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/xsens_mti_ros2_driver
+[20.240s] -- Install configuration: ""
+[20.240s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/ament_index/resource_index/rosidl_interfaces/xsens_mti_ros2_driver
+[20.240s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+[20.240s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+[20.240s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+[20.240s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.h
+[20.240s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__functions.c
+[20.241s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.h
+[20.241s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__struct.h
+[20.241s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/xs_status_word.h
+[20.241s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_generator_c__visibility_control.h
+[20.241s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/library_path.sh
+[20.241s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/library_path.dsv
+[20.241s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_c.so
+[20.241s] -- Set non-toolchain portion of runtime path of "/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_c.so" to ""
+[20.241s] -- Up-to-date: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+[20.241s] -- Up-to-date: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+[20.241s] -- Up-to-date: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+[20.241s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_fastrtps_c.h
+[20.241s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.242s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so
+[20.242s] -- Set non-toolchain portion of runtime path of "/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_c.so" to ""
+[20.242s] -- Up-to-date: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+[20.242s] -- Up-to-date: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+[20.242s] -- Up-to-date: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+[20.242s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__builder.hpp
+[20.242s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.hpp
+[20.242s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__traits.hpp
+[20.242s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__struct.hpp
+[20.242s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/xs_status_word.hpp
+[20.242s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_generator_cpp__visibility_control.hpp
+[20.242s] -- Up-to-date: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+[20.242s] -- Up-to-date: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+[20.243s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.243s] -- Up-to-date: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+[20.243s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/dds_fastrtps
+[20.243s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_fastrtps_cpp.hpp
+[20.243s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so
+[20.243s] -- Set non-toolchain portion of runtime path of "/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cpp.so" to ""
+[20.243s] -- Up-to-date: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+[20.243s] -- Up-to-date: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+[20.243s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.243s] -- Up-to-date: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+[20.243s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.c
+[20.243s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_introspection_c.h
+[20.243s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so
+[20.243s] -- Set non-toolchain portion of runtime path of "/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_c.so" to ""
+[20.244s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_c.so
+[20.244s] -- Set non-toolchain portion of runtime path of "/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_c.so" to ""
+[20.244s] -- Up-to-date: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver
+[20.244s] -- Up-to-date: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg
+[20.244s] -- Up-to-date: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail
+[20.244s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__rosidl_typesupport_introspection_cpp.hpp
+[20.244s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/include/xsens_mti_ros2_driver/xsens_mti_ros2_driver/msg/detail/xs_status_word__type_support.cpp
+[20.244s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so
+[20.244s] -- Set non-toolchain portion of runtime path of "/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_introspection_cpp.so" to ""
+[20.244s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so
+[20.244s] -- Set non-toolchain portion of runtime path of "/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_typesupport_cpp.so" to ""
+[20.245s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/pythonpath.sh
+[20.245s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/pythonpath.dsv
+[20.245s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info
+[20.245s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/top_level.txt
+[20.245s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/dependency_links.txt
+[20.245s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/PKG-INFO
+[20.245s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver-1.0.2-py3.10.egg-info/SOURCES.txt
+[20.245s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver
+[20.245s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/libxsens_mti_ros2_driver__rosidl_generator_py.so
+[20.245s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg
+[20.245s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_xs_status_word_s.c
+[20.245s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_xs_status_word.py
+[20.245s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/__init__.py
+[20.246s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/__init__.py
+[20.246s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.246s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.246s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_introspection_c.c
+[20.246s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_fastrtps_c.c
+[20.246s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.246s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/_xsens_mti_ros2_driver_s.ep.rosidl_typesupport_c.c
+[20.280s] Listing '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver'...
+[20.280s] Compiling '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/__init__.py'...
+[20.280s] Listing '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg'...
+[20.280s] Compiling '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/__init__.py'...
+[20.280s] Compiling '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/msg/_xs_status_word.py'...
+[20.284s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.285s] -- Set non-toolchain portion of runtime path of "/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.285s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.285s] -- Set non-toolchain portion of runtime path of "/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.285s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.285s] -- Set non-toolchain portion of runtime path of "/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/local/lib/python3.10/dist-packages/xsens_mti_ros2_driver/xsens_mti_ros2_driver_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.285s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_py.so
+[20.285s] -- Set non-toolchain portion of runtime path of "/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/libxsens_mti_ros2_driver__rosidl_generator_py.so" to ""
+[20.286s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/XsStatusWord.idl
+[20.286s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/msg/XsStatusWord.msg
+[20.286s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/xsens_mti_ros2_driver/xsens_mti_node
+[20.291s] -- Set non-toolchain portion of runtime path of "/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/xsens_mti_ros2_driver/xsens_mti_node" to ""
+[20.291s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch
+[20.291s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch/display.launch.py
+[20.291s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/launch/xsens_mti_node.launch.py
+[20.291s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/param
+[20.291s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/param/xsens_mti_node.yaml
+[20.291s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/rviz
+[20.292s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/rviz/display.rviz
+[20.292s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf
+[20.292s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_10.stl
+[20.295s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_10.urdf
+[20.295s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_6xx.stl
+[20.297s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_6xx.urdf
+[20.297s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_1.stl
+[20.298s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/urdf/MTi_1.urdf
+[20.298s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/ament_index/resource_index/package_run_dependencies/xsens_mti_ros2_driver
+[20.298s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/ament_index/resource_index/parent_prefix_path/xsens_mti_ros2_driver
+[20.298s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/ament_prefix_path.sh
+[20.298s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/ament_prefix_path.dsv
+[20.299s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/path.sh
+[20.299s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/environment/path.dsv
+[20.299s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.bash
+[20.299s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.sh
+[20.299s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.zsh
+[20.299s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/local_setup.dsv
+[20.299s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.dsv
+[20.299s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/ament_index/resource_index/packages/xsens_mti_ros2_driver
+[20.299s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cExport.cmake
+[20.299s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cExport-noconfig.cmake
+[20.300s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cExport.cmake
+[20.300s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[20.300s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_cppExport.cmake
+[20.300s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.300s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[20.300s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cExport.cmake
+[20.300s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.300s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cExport.cmake
+[20.300s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cExport-noconfig.cmake
+[20.301s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cppExport.cmake
+[20.301s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.301s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cppExport.cmake
+[20.301s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driver__rosidl_typesupport_cppExport-noconfig.cmake
+[20.301s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_pyExport.cmake
+[20.301s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/export_xsens_mti_ros2_driver__rosidl_generator_pyExport-noconfig.cmake
+[20.301s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake-extras.cmake
+[20.301s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.301s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.301s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[20.301s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/ament_cmake_export_targets-extras.cmake
+[20.302s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.302s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.302s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driverConfig.cmake
+[20.302s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/cmake/xsens_mti_ros2_driverConfig-version.cmake
+[20.302s] -- Installing: /home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.xml
+[20.304s] Invoked command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/xsens_mti_ros2_driver

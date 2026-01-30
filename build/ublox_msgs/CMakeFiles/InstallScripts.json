@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/dell/sensor_fusion/build/ublox_msgs/cmake_install.cmake",
+		"/home/dell/sensor_fusion/build/ublox_msgs/ublox_msgs__py/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

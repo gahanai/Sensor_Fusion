@@ -1,0 +1,742 @@
+[0.088s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.088s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77eca91714b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77eca9170fd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77eca9170fd0>>)
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.123s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/dell/sensor_fusion'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.136s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.137s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_odometry) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_odometry) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_odometry) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_odometry) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_odometry) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_odometry) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_odometry) by extensions ['ros']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(src/gps_odometry) by extension 'ros'
+[0.140s] DEBUG:colcon.colcon_core.package_identification:Package 'src/gps_odometry' with type 'ros.ament_python' and name 'gps_odometry'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/imu_odometry) by extension 'ros'
+[0.141s] DEBUG:colcon.colcon_core.package_identification:Package 'src/imu_odometry' with type 'ros.ament_python' and name 'imu_odometry'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ignore_ament_install'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_robot_description) by extension 'ros'
+[0.142s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_robot_description' with type 'ros.ament_cmake' and name 'my_robot_description'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/ntrip) by extension 'ros'
+[0.143s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ntrip' with type 'ros.ament_cmake' and name 'ntrip'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization_fusion) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization_fusion) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization_fusion) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization_fusion) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization_fusion) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization_fusion) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization_fusion) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization_fusion) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_localization_fusion) by extension 'ros'
+[0.144s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_localization_fusion' with type 'ros.ament_python' and name 'robot_localization_fusion'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'ros'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/pics) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox) by extension 'ros'
+[0.146s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox' with type 'ros.ament_cmake' and name 'ublox'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['ignore', 'ignore_ament_install']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ignore'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ignore_ament_install'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['colcon_pkg']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'colcon_pkg'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['colcon_meta']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'colcon_meta'
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extensions ['ros']
+[0.146s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_gps) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_gps' with type 'ros.ament_cmake' and name 'ublox_gps'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ignore_ament_install'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['colcon_pkg']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'colcon_pkg'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['colcon_meta']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'colcon_meta'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extensions ['ros']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_msgs) by extension 'ros'
+[0.148s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_msgs' with type 'ros.ament_cmake' and name 'ublox_msgs'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2-ublox-zedf9p/ublox_serialization) by extension 'ros'
+[0.149s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2-ublox-zedf9p/ublox_serialization' with type 'ros.ament_cmake' and name 'ublox_serialization'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_mti_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_mti_ros2_driver) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_mti_ros2_driver) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_mti_ros2_driver) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_mti_ros2_driver) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_mti_ros2_driver) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_mti_ros2_driver) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_mti_ros2_driver) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/xsens_mti_ros2_driver) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/xsens_mti_ros2_driver' with type 'ros.ament_cmake' and name 'xsens_mti_ros2_driver'
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.151s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.168s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.170s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 316 installed packages in /opt/ros/humble
+[0.172s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'cmake_args' from command line to 'None'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'cmake_target' from command line to 'None'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.208s] Level 5:colcon.colcon_core.verb:set package 'imu_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.209s] DEBUG:colcon.colcon_core.verb:Building package 'imu_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dell/sensor_fusion/build/imu_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dell/sensor_fusion/install/imu_odometry', 'merge_install': False, 'path': '/home/dell/sensor_fusion/src/imu_odometry', 'symlink_install': False, 'test_result_base': None}
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_args' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'my_robot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.209s] DEBUG:colcon.colcon_core.verb:Building package 'my_robot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dell/sensor_fusion/build/my_robot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dell/sensor_fusion/install/my_robot_description', 'merge_install': False, 'path': '/home/dell/sensor_fusion/src/my_robot_description', 'symlink_install': False, 'test_result_base': None}
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'ntrip' build argument 'cmake_args' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'ntrip' build argument 'cmake_target' from command line to 'None'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'ntrip' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'ntrip' build argument 'cmake_clean_cache' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'ntrip' build argument 'cmake_clean_first' from command line to 'False'
+[0.209s] Level 5:colcon.colcon_core.verb:set package 'ntrip' build argument 'cmake_force_configure' from command line to 'False'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'ntrip' build argument 'ament_cmake_args' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'ntrip' build argument 'catkin_cmake_args' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'ntrip' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.210s] DEBUG:colcon.colcon_core.verb:Building package 'ntrip' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dell/sensor_fusion/build/ntrip', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dell/sensor_fusion/install/ntrip', 'merge_install': False, 'path': '/home/dell/sensor_fusion/src/ntrip', 'symlink_install': False, 'test_result_base': None}
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'robot_localization_fusion' build argument 'cmake_args' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'robot_localization_fusion' build argument 'cmake_target' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'robot_localization_fusion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'robot_localization_fusion' build argument 'cmake_clean_cache' from command line to 'False'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'robot_localization_fusion' build argument 'cmake_clean_first' from command line to 'False'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'robot_localization_fusion' build argument 'cmake_force_configure' from command line to 'False'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'robot_localization_fusion' build argument 'ament_cmake_args' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'robot_localization_fusion' build argument 'catkin_cmake_args' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'robot_localization_fusion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.210s] DEBUG:colcon.colcon_core.verb:Building package 'robot_localization_fusion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dell/sensor_fusion/build/robot_localization_fusion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dell/sensor_fusion/install/robot_localization_fusion', 'merge_install': False, 'path': '/home/dell/sensor_fusion/src/robot_localization_fusion', 'symlink_install': False, 'test_result_base': None}
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_args' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target' from command line to 'None'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.210s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_clean_first' from command line to 'False'
+[0.211s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'cmake_force_configure' from command line to 'False'
+[0.211s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'ament_cmake_args' from command line to 'None'
+[0.211s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.211s] Level 5:colcon.colcon_core.verb:set package 'ublox_serialization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.211s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_serialization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dell/sensor_fusion/build/ublox_serialization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dell/sensor_fusion/install/ublox_serialization', 'merge_install': False, 'path': '/home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox_serialization', 'symlink_install': False, 'test_result_base': None}
+[0.211s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'cmake_args' from command line to 'None'
+[0.211s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'cmake_target' from command line to 'None'
+[0.211s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.211s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.211s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.211s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.211s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.211s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.211s] Level 5:colcon.colcon_core.verb:set package 'xsens_mti_ros2_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.211s] DEBUG:colcon.colcon_core.verb:Building package 'xsens_mti_ros2_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver', 'merge_install': False, 'path': '/home/dell/sensor_fusion/src/xsens_mti_ros2_driver', 'symlink_install': False, 'test_result_base': None}
+[0.211s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_args' from command line to 'None'
+[0.211s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'ublox_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.212s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dell/sensor_fusion/build/ublox_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dell/sensor_fusion/install/ublox_msgs', 'merge_install': False, 'path': '/home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'gps_odometry' build argument 'cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'gps_odometry' build argument 'cmake_target' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'gps_odometry' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'gps_odometry' build argument 'cmake_clean_cache' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'gps_odometry' build argument 'cmake_clean_first' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'gps_odometry' build argument 'cmake_force_configure' from command line to 'False'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'gps_odometry' build argument 'ament_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'gps_odometry' build argument 'catkin_cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'gps_odometry' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.212s] DEBUG:colcon.colcon_core.verb:Building package 'gps_odometry' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dell/sensor_fusion/build/gps_odometry', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dell/sensor_fusion/install/gps_odometry', 'merge_install': False, 'path': '/home/dell/sensor_fusion/src/gps_odometry', 'symlink_install': False, 'test_result_base': None}
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_args' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target' from command line to 'None'
+[0.212s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_cache' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_clean_first' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'cmake_force_configure' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'ament_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'ublox_gps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.213s] DEBUG:colcon.colcon_core.verb:Building package 'ublox_gps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dell/sensor_fusion/build/ublox_gps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dell/sensor_fusion/install/ublox_gps', 'merge_install': False, 'path': '/home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox_gps', 'symlink_install': False, 'test_result_base': None}
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_cache' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_clean_first' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'cmake_force_configure' from command line to 'False'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'ament_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_cmake_args' from command line to 'None'
+[0.213s] Level 5:colcon.colcon_core.verb:set package 'ublox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.213s] DEBUG:colcon.colcon_core.verb:Building package 'ublox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/dell/sensor_fusion/build/ublox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/dell/sensor_fusion/install/ublox', 'merge_install': False, 'path': '/home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox', 'symlink_install': False, 'test_result_base': None}
+[0.213s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.214s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.214s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox_serialization' with build type 'ament_cmake'
+[0.214s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox_serialization'
+[0.217s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.217s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.219s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dell/sensor_fusion/src/imu_odometry' with build type 'ament_python'
+[0.219s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_odometry', 'ament_prefix_path')
+[0.219s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/hook/ament_prefix_path.ps1'
+[0.221s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/hook/ament_prefix_path.dsv'
+[0.221s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/hook/ament_prefix_path.sh'
+[0.222s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.222s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.223s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dell/sensor_fusion/src/my_robot_description' with build type 'ament_cmake'
+[0.224s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dell/sensor_fusion/src/my_robot_description'
+[0.224s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.224s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.226s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dell/sensor_fusion/src/ntrip' with build type 'ament_cmake'
+[0.226s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dell/sensor_fusion/src/ntrip'
+[0.226s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.226s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.228s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dell/sensor_fusion/src/robot_localization_fusion' with build type 'ament_python'
+[0.228s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_localization_fusion', 'ament_prefix_path')
+[0.229s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/robot_localization_fusion/share/robot_localization_fusion/hook/ament_prefix_path.ps1'
+[0.229s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/robot_localization_fusion/share/robot_localization_fusion/hook/ament_prefix_path.dsv'
+[0.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/robot_localization_fusion/share/robot_localization_fusion/hook/ament_prefix_path.sh'
+[0.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.230s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.232s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dell/sensor_fusion/src/xsens_mti_ros2_driver' with build type 'ament_cmake'
+[0.232s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dell/sensor_fusion/src/xsens_mti_ros2_driver'
+[0.232s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.232s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.238s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/ublox_serialization
+[0.427s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dell/sensor_fusion/src/imu_odometry'
+[0.427s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.427s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/my_robot_description
+[0.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/ntrip': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/ntrip -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/ntrip
+[0.625s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dell/sensor_fusion/src/robot_localization_fusion'
+[0.625s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.625s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/xsens_mti_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/xsens_mti_ros2_driver
+[0.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox_serialization -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/ublox_serialization
+[0.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/ublox_serialization -- -j16 -l16
+[0.757s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/ublox_serialization -- -j16 -l16
+[0.761s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/ublox_serialization': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/ublox_serialization
+[0.767s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[0.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/ublox_serialization' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/ublox_serialization
+[0.770s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_serialization' for CMake module files
+[0.771s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_serialization' for CMake config files
+[0.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[0.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[0.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[0.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_serialization/bin'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_serialization/lib/python3.10/site-packages'
+[0.774s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_serialization/bin'
+[0.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[0.775s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_serialization/share/ublox_serialization/package.sh'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_serialization/share/ublox_serialization/package.bash'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[0.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[0.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_serialization)
+[0.778s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_serialization' for CMake module files
+[0.779s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_serialization' for CMake config files
+[0.779s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_serialization', 'cmake_prefix_path')
+[0.779s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.ps1'
+[0.779s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.dsv'
+[0.780s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_serialization/share/ublox_serialization/hook/cmake_prefix_path.sh'
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_serialization/bin'
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_serialization/lib/pkgconfig/ublox_serialization.pc'
+[0.780s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_serialization/lib/python3.10/site-packages'
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_serialization/bin'
+[0.781s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_serialization/share/ublox_serialization/package.ps1'
+[0.781s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/ublox_serialization/share/ublox_serialization/package.dsv'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_serialization/share/ublox_serialization/package.sh'
+[0.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_serialization/share/ublox_serialization/package.bash'
+[0.783s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_serialization/share/ublox_serialization/package.zsh'
+[0.783s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/ublox_serialization/share/colcon-core/packages/ublox_serialization)
+[0.783s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox_msgs' with build type 'ament_cmake'
+[0.783s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox_msgs'
+[0.783s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.783s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.790s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/ublox_msgs': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox_msgs -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/ublox_msgs
+[0.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/my_robot_description
+[0.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/my_robot_description -- -j16 -l16
+[1.010s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/my_robot_description -- -j16 -l16
+[1.012s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/my_robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/my_robot_description
+[1.018s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[1.018s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/my_robot_description' for CMake module files
+[1.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/my_robot_description
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/my_robot_description' for CMake config files
+[1.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[1.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[1.021s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/my_robot_description/bin'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/my_robot_description/lib/python3.10/site-packages'
+[1.022s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/my_robot_description/bin'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/my_robot_description/share/my_robot_description/package.ps1'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/my_robot_description/share/my_robot_description/package.dsv'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/my_robot_description/share/my_robot_description/package.sh'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/my_robot_description/share/my_robot_description/package.bash'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/my_robot_description/share/my_robot_description/package.zsh'
+[1.024s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[1.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_robot_description)
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/my_robot_description' for CMake module files
+[1.026s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/my_robot_description' for CMake config files
+[1.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_robot_description', 'cmake_prefix_path')
+[1.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.ps1'
+[1.026s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.dsv'
+[1.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/my_robot_description/share/my_robot_description/hook/cmake_prefix_path.sh'
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/my_robot_description/bin'
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/my_robot_description/lib/pkgconfig/my_robot_description.pc'
+[1.027s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/my_robot_description/lib/python3.10/site-packages'
+[1.028s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/my_robot_description/bin'
+[1.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/my_robot_description/share/my_robot_description/package.ps1'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/my_robot_description/share/my_robot_description/package.dsv'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/my_robot_description/share/my_robot_description/package.sh'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/my_robot_description/share/my_robot_description/package.bash'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/my_robot_description/share/my_robot_description/package.zsh'
+[1.030s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/my_robot_description/share/colcon-core/packages/my_robot_description)
+[1.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/src/imu_odometry': PYTHONPATH=/home/dell/sensor_fusion/build/imu_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_odometry build --build-base /home/dell/sensor_fusion/build/imu_odometry/build install --record /home/dell/sensor_fusion/build/imu_odometry/install.log --single-version-externally-managed install_data
+[1.122s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/src/robot_localization_fusion': PYTHONPATH=/home/dell/sensor_fusion/build/robot_localization_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dell/sensor_fusion/install/robot_localization_fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_localization_fusion build --build-base /home/dell/sensor_fusion/build/robot_localization_fusion/build install --record /home/dell/sensor_fusion/build/robot_localization_fusion/install.log --single-version-externally-managed install_data
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/imu_odometry' for CMake module files
+[1.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/src/imu_odometry' returned '0': PYTHONPATH=/home/dell/sensor_fusion/build/imu_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/imu_odometry build --build-base /home/dell/sensor_fusion/build/imu_odometry/build install --record /home/dell/sensor_fusion/build/imu_odometry/install.log --single-version-externally-managed install_data
+[1.653s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/imu_odometry' for CMake config files
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/imu_odometry/lib'
+[1.654s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/imu_odometry/bin'
+[1.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_odometry', 'path')
+[1.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/hook/path.ps1'
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/hook/path.dsv'
+[1.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/hook/path.sh'
+[1.655s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/imu_odometry/lib/pkgconfig/imu_odometry.pc'
+[1.656s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/imu_odometry/lib/python3.10/site-packages'
+[1.656s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_odometry', 'pythonpath')
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/hook/pythonpath.ps1'
+[1.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/hook/pythonpath.dsv'
+[1.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/hook/pythonpath.sh'
+[1.657s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/imu_odometry/bin'
+[1.657s] Level 1:colcon.colcon_core.shell:create_environment_hook('imu_odometry', 'pythonscriptspath')
+[1.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/hook/pythonscriptspath.ps1'
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/hook/pythonscriptspath.dsv'
+[1.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/hook/pythonscriptspath.sh'
+[1.658s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(imu_odometry)
+[1.659s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/package.ps1'
+[1.659s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/package.dsv'
+[1.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/package.sh'
+[1.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/package.bash'
+[1.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/imu_odometry/share/imu_odometry/package.zsh'
+[1.661s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/imu_odometry/share/colcon-core/packages/imu_odometry)
+[1.686s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/ntrip' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/ntrip -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/ntrip
+[1.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/ntrip': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/ntrip -- -j16 -l16
+[1.726s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/robot_localization_fusion' for CMake module files
+[1.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/src/robot_localization_fusion' returned '0': PYTHONPATH=/home/dell/sensor_fusion/build/robot_localization_fusion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dell/sensor_fusion/install/robot_localization_fusion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_localization_fusion build --build-base /home/dell/sensor_fusion/build/robot_localization_fusion/build install --record /home/dell/sensor_fusion/build/robot_localization_fusion/install.log --single-version-externally-managed install_data
+[1.727s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/robot_localization_fusion' for CMake config files
+[1.728s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/robot_localization_fusion/lib'
+[1.728s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/robot_localization_fusion/bin'
+[1.728s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/robot_localization_fusion/lib/pkgconfig/robot_localization_fusion.pc'
+[1.728s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/robot_localization_fusion/lib/python3.10/site-packages'
+[1.728s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_localization_fusion', 'pythonpath')
+[1.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/robot_localization_fusion/share/robot_localization_fusion/hook/pythonpath.ps1'
+[1.729s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/robot_localization_fusion/share/robot_localization_fusion/hook/pythonpath.dsv'
+[1.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/robot_localization_fusion/share/robot_localization_fusion/hook/pythonpath.sh'
+[1.731s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/robot_localization_fusion/bin'
+[1.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_localization_fusion)
+[1.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/robot_localization_fusion/share/robot_localization_fusion/package.ps1'
+[1.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/robot_localization_fusion/share/robot_localization_fusion/package.dsv'
+[1.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/robot_localization_fusion/share/robot_localization_fusion/package.sh'
+[1.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/robot_localization_fusion/share/robot_localization_fusion/package.bash'
+[1.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/robot_localization_fusion/share/robot_localization_fusion/package.zsh'
+[1.734s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/robot_localization_fusion/share/colcon-core/packages/robot_localization_fusion)
+[3.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/xsens_mti_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/xsens_mti_ros2_driver
+[3.399s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/xsens_mti_ros2_driver -- -j16 -l16
+[4.291s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/ublox_msgs' returned '0': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox_msgs -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/ublox_msgs
+[4.293s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/ublox_msgs': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/ublox_msgs -- -j16 -l16
+[11.041s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/ntrip' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/ntrip -- -j16 -l16
+[11.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/ntrip': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/ntrip
+[11.052s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ntrip)
+[11.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/ntrip' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/ntrip
+[11.052s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ntrip' for CMake module files
+[11.053s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ntrip' for CMake config files
+[11.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('ntrip', 'cmake_prefix_path')
+[11.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ntrip/share/ntrip/hook/cmake_prefix_path.ps1'
+[11.053s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/ntrip/share/ntrip/hook/cmake_prefix_path.dsv'
+[11.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ntrip/share/ntrip/hook/cmake_prefix_path.sh'
+[11.054s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ntrip/lib'
+[11.054s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ntrip/bin'
+[11.054s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ntrip/lib/pkgconfig/ntrip.pc'
+[11.055s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ntrip/lib/python3.10/site-packages'
+[11.055s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ntrip/bin'
+[11.055s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ntrip/share/ntrip/package.ps1'
+[11.056s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/ntrip/share/ntrip/package.dsv'
+[11.056s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ntrip/share/ntrip/package.sh'
+[11.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ntrip/share/ntrip/package.bash'
+[11.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ntrip/share/ntrip/package.zsh'
+[11.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/ntrip/share/colcon-core/packages/ntrip)
+[11.058s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ntrip)
+[11.059s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ntrip' for CMake module files
+[11.059s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ntrip' for CMake config files
+[11.059s] Level 1:colcon.colcon_core.shell:create_environment_hook('ntrip', 'cmake_prefix_path')
+[11.059s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ntrip/share/ntrip/hook/cmake_prefix_path.ps1'
+[11.060s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/ntrip/share/ntrip/hook/cmake_prefix_path.dsv'
+[11.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ntrip/share/ntrip/hook/cmake_prefix_path.sh'
+[11.061s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ntrip/lib'
+[11.061s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ntrip/bin'
+[11.061s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ntrip/lib/pkgconfig/ntrip.pc'
+[11.061s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ntrip/lib/python3.10/site-packages'
+[11.061s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ntrip/bin'
+[11.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ntrip/share/ntrip/package.ps1'
+[11.062s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/ntrip/share/ntrip/package.dsv'
+[11.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ntrip/share/ntrip/package.sh'
+[11.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ntrip/share/ntrip/package.bash'
+[11.063s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ntrip/share/ntrip/package.zsh'
+[11.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/ntrip/share/colcon-core/packages/ntrip)
+[20.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/xsens_mti_ros2_driver -- -j16 -l16
+[20.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/xsens_mti_ros2_driver
+[20.536s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xsens_mti_ros2_driver)
+[20.536s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver' for CMake module files
+[20.537s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/xsens_mti_ros2_driver
+[20.537s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver' for CMake config files
+[20.537s] Level 1:colcon.colcon_core.shell:create_environment_hook('xsens_mti_ros2_driver', 'cmake_prefix_path')
+[20.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/cmake_prefix_path.ps1'
+[20.538s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/cmake_prefix_path.dsv'
+[20.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/cmake_prefix_path.sh'
+[20.539s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib'
+[20.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('xsens_mti_ros2_driver', 'ld_library_path_lib')
+[20.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/ld_library_path_lib.ps1'
+[20.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/ld_library_path_lib.dsv'
+[20.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/ld_library_path_lib.sh'
+[20.540s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/bin'
+[20.540s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/pkgconfig/xsens_mti_ros2_driver.pc'
+[20.541s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/python3.10/site-packages'
+[20.541s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/bin'
+[20.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.ps1'
+[20.542s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.dsv'
+[20.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.sh'
+[20.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.bash'
+[20.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.zsh'
+[20.543s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/colcon-core/packages/xsens_mti_ros2_driver)
+[20.545s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xsens_mti_ros2_driver)
+[20.545s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver' for CMake module files
+[20.545s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver' for CMake config files
+[20.546s] Level 1:colcon.colcon_core.shell:create_environment_hook('xsens_mti_ros2_driver', 'cmake_prefix_path')
+[20.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/cmake_prefix_path.ps1'
+[20.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/cmake_prefix_path.dsv'
+[20.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/cmake_prefix_path.sh'
+[20.547s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib'
+[20.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('xsens_mti_ros2_driver', 'ld_library_path_lib')
+[20.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/ld_library_path_lib.ps1'
+[20.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/ld_library_path_lib.dsv'
+[20.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/hook/ld_library_path_lib.sh'
+[20.548s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/bin'
+[20.548s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/pkgconfig/xsens_mti_ros2_driver.pc'
+[20.549s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/lib/python3.10/site-packages'
+[20.549s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/bin'
+[20.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.ps1'
+[20.550s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.dsv'
+[20.550s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.sh'
+[20.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.bash'
+[20.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/xsens_mti_ros2_driver/package.zsh'
+[20.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/xsens_mti_ros2_driver/share/colcon-core/packages/xsens_mti_ros2_driver)
+[105.246s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/ublox_msgs' returned '0': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/ublox_msgs -- -j16 -l16
+[105.247s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/ublox_msgs': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/ublox_msgs
+[105.555s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[105.556s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_msgs' for CMake module files
+[105.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/ublox_msgs' returned '0': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/ublox_msgs
+[105.557s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_msgs' for CMake config files
+[105.558s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'cmake_prefix_path')
+[105.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.ps1'
+[105.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.dsv'
+[105.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.sh'
+[105.559s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_msgs/lib'
+[105.559s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'ld_library_path_lib')
+[105.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.ps1'
+[105.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.dsv'
+[105.560s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.sh'
+[105.560s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_msgs/bin'
+[105.560s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[105.560s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_msgs/lib/python3.10/site-packages'
+[105.561s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_msgs/bin'
+[105.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[105.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[105.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/package.sh'
+[105.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/package.bash'
+[105.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[105.562s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[105.563s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_msgs)
+[105.563s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_msgs' for CMake module files
+[105.564s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_msgs' for CMake config files
+[105.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'cmake_prefix_path')
+[105.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.ps1'
+[105.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.dsv'
+[105.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/hook/cmake_prefix_path.sh'
+[105.566s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_msgs/lib'
+[105.566s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_msgs', 'ld_library_path_lib')
+[105.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.ps1'
+[105.567s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.dsv'
+[105.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/hook/ld_library_path_lib.sh'
+[105.567s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_msgs/bin'
+[105.567s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_msgs/lib/pkgconfig/ublox_msgs.pc'
+[105.567s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_msgs/lib/python3.10/site-packages'
+[105.568s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_msgs/bin'
+[105.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/package.ps1'
+[105.568s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/package.dsv'
+[105.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/package.sh'
+[105.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/package.bash'
+[105.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_msgs/share/ublox_msgs/package.zsh'
+[105.570s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/ublox_msgs/share/colcon-core/packages/ublox_msgs)
+[105.570s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox_gps' with build type 'ament_cmake'
+[105.570s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox_gps'
+[105.570s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[105.570s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[105.573s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/dell/sensor_fusion/src/gps_odometry' with build type 'ament_python'
+[105.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_odometry', 'ament_prefix_path')
+[105.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/gps_odometry/share/gps_odometry/hook/ament_prefix_path.ps1'
+[105.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/gps_odometry/share/gps_odometry/hook/ament_prefix_path.dsv'
+[105.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/gps_odometry/share/gps_odometry/hook/ament_prefix_path.sh'
+[105.574s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[105.574s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[105.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/ublox_gps': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/ublox_gps
+[105.812s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/dell/sensor_fusion/src/gps_odometry'
+[105.812s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[105.812s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[106.198s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/src/gps_odometry': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/build/gps_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages:/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_odometry build --build-base /home/dell/sensor_fusion/build/gps_odometry/build install --record /home/dell/sensor_fusion/build/gps_odometry/install.log --single-version-externally-managed install_data
+[106.728s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/gps_odometry' for CMake module files
+[106.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/src/gps_odometry' returned '0': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/build/gps_odometry/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages:/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gps_odometry build --build-base /home/dell/sensor_fusion/build/gps_odometry/build install --record /home/dell/sensor_fusion/build/gps_odometry/install.log --single-version-externally-managed install_data
+[106.729s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/gps_odometry' for CMake config files
+[106.729s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/gps_odometry/lib'
+[106.729s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/gps_odometry/bin'
+[106.729s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/gps_odometry/lib/pkgconfig/gps_odometry.pc'
+[106.730s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/gps_odometry/lib/python3.10/site-packages'
+[106.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('gps_odometry', 'pythonpath')
+[106.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/gps_odometry/share/gps_odometry/hook/pythonpath.ps1'
+[106.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/gps_odometry/share/gps_odometry/hook/pythonpath.dsv'
+[106.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/gps_odometry/share/gps_odometry/hook/pythonpath.sh'
+[106.731s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/gps_odometry/bin'
+[106.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(gps_odometry)
+[106.731s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/gps_odometry/share/gps_odometry/package.ps1'
+[106.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/gps_odometry/share/gps_odometry/package.dsv'
+[106.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/gps_odometry/share/gps_odometry/package.sh'
+[106.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/gps_odometry/share/gps_odometry/package.bash'
+[106.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/gps_odometry/share/gps_odometry/package.zsh'
+[106.733s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/gps_odometry/share/colcon-core/packages/gps_odometry)
+[106.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox_gps -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/ublox_gps
+[106.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/ublox_gps': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dell/sensor_fusion/build/ublox_gps -- -j16 -l16
+[138.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dell/sensor_fusion/build/ublox_gps -- -j16 -l16
+[138.698s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/ublox_gps': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dell/sensor_fusion/build/ublox_gps
+[138.722s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_gps)
+[138.722s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_gps' for CMake module files
+[138.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/ublox_gps' returned '0': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dell/sensor_fusion/build/ublox_gps
+[138.723s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_gps' for CMake config files
+[138.723s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'cmake_prefix_path')
+[138.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.ps1'
+[138.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.dsv'
+[138.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.sh'
+[138.725s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_gps/lib'
+[138.725s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'ld_library_path_lib')
+[138.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.ps1'
+[138.725s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.dsv'
+[138.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.sh'
+[138.726s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_gps/bin'
+[138.726s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_gps/lib/pkgconfig/ublox_gps.pc'
+[138.726s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_gps/lib/python3.10/site-packages'
+[138.726s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_gps/bin'
+[138.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/package.ps1'
+[138.727s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/package.dsv'
+[138.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/package.sh'
+[138.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/package.bash'
+[138.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/package.zsh'
+[138.728s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/ublox_gps/share/colcon-core/packages/ublox_gps)
+[138.729s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox_gps)
+[138.729s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_gps' for CMake module files
+[138.729s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_gps' for CMake config files
+[138.730s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'cmake_prefix_path')
+[138.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.ps1'
+[138.730s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.dsv'
+[138.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/hook/cmake_prefix_path.sh'
+[138.731s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_gps/lib'
+[138.731s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox_gps', 'ld_library_path_lib')
+[138.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.ps1'
+[138.731s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.dsv'
+[138.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/hook/ld_library_path_lib.sh'
+[138.732s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_gps/bin'
+[138.732s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_gps/lib/pkgconfig/ublox_gps.pc'
+[138.732s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_gps/lib/python3.10/site-packages'
+[138.732s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox_gps/bin'
+[138.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/package.ps1'
+[138.733s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/package.dsv'
+[138.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/package.sh'
+[138.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/package.bash'
+[138.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox_gps/share/ublox_gps/package.zsh'
+[138.734s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/ublox_gps/share/colcon-core/packages/ublox_gps)
+[138.735s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox' with build type 'ament_cmake'
+[138.735s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox'
+[138.735s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[138.735s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[138.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/ublox': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_gps/lib:/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/ublox
+[139.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_gps/lib:/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/dell/sensor_fusion/src/ros2-ublox-zedf9p/ublox -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/ublox
+[139.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/ublox': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_gps/lib:/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dell/sensor_fusion/build/ublox -- -j16 -l16
+[139.235s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_gps/lib:/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dell/sensor_fusion/build/ublox -- -j16 -l16
+[139.237s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/dell/sensor_fusion/build/ublox': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_gps/lib:/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dell/sensor_fusion/build/ublox
+[139.241s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox)
+[139.242s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox' for CMake module files
+[139.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/dell/sensor_fusion/build/ublox' returned '0': AMENT_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dell/sensor_fusion/install/ublox_gps:/home/dell/sensor_fusion/install/ublox_msgs:/home/dell/sensor_fusion/install/ublox_serialization:/opt/ros/humble LD_LIBRARY_PATH=/home/dell/sensor_fusion/install/ublox_gps/lib:/home/dell/sensor_fusion/install/ublox_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dell/sensor_fusion/install/ublox_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dell/sensor_fusion/build/ublox
+[139.242s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox' for CMake config files
+[139.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox', 'cmake_prefix_path')
+[139.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox/share/ublox/hook/cmake_prefix_path.ps1'
+[139.243s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/ublox/share/ublox/hook/cmake_prefix_path.dsv'
+[139.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox/share/ublox/hook/cmake_prefix_path.sh'
+[139.244s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox/bin'
+[139.244s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox/lib/pkgconfig/ublox.pc'
+[139.244s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox/lib/python3.10/site-packages'
+[139.244s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox/bin'
+[139.244s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox/share/ublox/package.ps1'
+[139.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/ublox/share/ublox/package.dsv'
+[139.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox/share/ublox/package.sh'
+[139.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox/share/ublox/package.bash'
+[139.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox/share/ublox/package.zsh'
+[139.246s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/ublox/share/colcon-core/packages/ublox)
+[139.246s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ublox)
+[139.246s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox' for CMake module files
+[139.247s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox' for CMake config files
+[139.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('ublox', 'cmake_prefix_path')
+[139.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox/share/ublox/hook/cmake_prefix_path.ps1'
+[139.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/dell/sensor_fusion/install/ublox/share/ublox/hook/cmake_prefix_path.dsv'
+[139.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/dell/sensor_fusion/install/ublox/share/ublox/hook/cmake_prefix_path.sh'
+[139.255s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox/bin'
+[139.255s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox/lib/pkgconfig/ublox.pc'
+[139.255s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox/lib/python3.10/site-packages'
+[139.255s] Level 1:colcon.colcon_core.environment:checking '/home/dell/sensor_fusion/install/ublox/bin'
+[139.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox/share/ublox/package.ps1'
+[139.256s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/dell/sensor_fusion/install/ublox/share/ublox/package.dsv'
+[139.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox/share/ublox/package.sh'
+[139.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox/share/ublox/package.bash'
+[139.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/dell/sensor_fusion/install/ublox/share/ublox/package.zsh'
+[139.258s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/dell/sensor_fusion/install/ublox/share/colcon-core/packages/ublox)
+[139.258s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[139.258s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[139.258s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[139.258s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[139.263s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[139.263s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[139.263s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[139.270s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[139.270s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dell/sensor_fusion/install/local_setup.ps1'
+[139.271s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dell/sensor_fusion/install/_local_setup_util_ps1.py'
+[139.272s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dell/sensor_fusion/install/setup.ps1'
+[139.273s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dell/sensor_fusion/install/local_setup.sh'
+[139.273s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/dell/sensor_fusion/install/_local_setup_util_sh.py'
+[139.273s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dell/sensor_fusion/install/setup.sh'
+[139.274s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dell/sensor_fusion/install/local_setup.bash'
+[139.275s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dell/sensor_fusion/install/setup.bash'
+[139.275s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/dell/sensor_fusion/install/local_setup.zsh'
+[139.276s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/dell/sensor_fusion/install/setup.zsh'

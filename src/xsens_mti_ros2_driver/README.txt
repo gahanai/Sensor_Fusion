@@ -47,7 +47,7 @@ Running:
             ---
 
     - There is also an example that shows a 3D visualization of the device (orientation data should be enabled in the device):
-            $ ros2 launch xsens_mti_ros2_driver display.launch.py
+            $ 
 
 
 -[ Troubleshooting ]------------------------------------------------------------
