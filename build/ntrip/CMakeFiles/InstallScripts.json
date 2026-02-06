@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/dell/sensor_fusion/build/ntrip/cmake_install.cmake"
-	],
-	"Parallel" : false
-}

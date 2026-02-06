@@ -1,6 +1,0 @@
-{
-  "package_name": "xsens_mti_ros2_driver",
-  "non_idl_tuples": [
-    "/home/dell/sensor_fusion/src/xsens_mti_ros2_driver:msg/XsStatusWord.msg"
-  ]
-}

@@ -144,7 +144,7 @@
         pub_pressure: true
         pub_accelerationhr: false #High Rate Data Acceleration, when this is true, set enable_high_rate to true as well
         pub_angular_velocity_hr: false #High Rate Data Angular Velocity,  when this is true, set enable_high_rate to true as well
-        pub_transform: true
+        pub_transform: false               #true       
         pub_status: true
         pub_twist: true         # For GNSS/INS Version of MTI only
         pub_gnss: true          # For GNSS/INS Version of MTI only
@@ -227,11 +227,17 @@
         # Sensor Standard Deviation (Optional)
         # ------------------------------------
         # Override the covariance matrix in sensor_msgs/Imu and sensor_msgs/MagneticField messages:
-        linear_acceleration_stddev: [0.0, 0.0, 0.0] # [m/s^2] Standard deviation for linear acceleration
-        angular_velocity_stddev: [0.0, 0.0, 0.0]   # [rad/s] Standard deviation for angular velocity
-        orientation_stddev: [0.0, 0.0, 0.0]        # [rad]   Standard deviation for orientation
-        magnetic_field_stddev: [0.0, 0.0, 0.0]     # [Tesla] Standard deviation for magnetic field
-
+        # linear_acceleration_stddev: [0.0, 0.0, 0.0] # [m/s^2] Standard deviation for linear acceleration
+        # angular_velocity_stddev: [0.0, 0.0, 0.0]   # [rad/s] Standard deviation for angular velocity
+        # orientation_stddev: [0.0, 0.0, 0.0]        # [rad]   Standard deviation for orientation
+        # magnetic_field_stddev: [0.0, 0.0, 0.0]     # [Tesla] Standard deviation for magnetic field
+        # Sensor Standard Deviation (Optional)
+# ------------------------------------
+# Override the covariance matrix in sensor_msgs/Imu and sensor_msgs/MagneticField messages:
+        linear_acceleration_stddev: [0.1, 0.1, 0.1]    # [m/s^2] Standard deviation for linear acceleration
+        angular_velocity_stddev: [0.03, 0.03, 0.03]    # [rad/s] Standard deviation for angular velocity
+        orientation_stddev: [0.01, 0.01, 0.01]         # [rad]   Standard deviation for orientation (very accurate)
+        magnetic_field_stddev: [0.0, 0.0, 0.0]         # [Tesla] Standard deviation for magnetic field (not used)   
 
 
 

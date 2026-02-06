@@ -1,3 +1,0 @@
-[console_scripts]
-imu_odometry_xsens = imu_odometry.imu_odometry_xsens:main
-odom = imu_odometry.odom:main

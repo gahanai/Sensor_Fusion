@@ -1,6 +1,0 @@
-Invoking command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/xsens_mti_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/xsens_mti_ros2_driver
-Invoked command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/dell/sensor_fusion/src/xsens_mti_ros2_driver -DCMAKE_INSTALL_PREFIX=/home/dell/sensor_fusion/install/xsens_mti_ros2_driver
-Invoking command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/xsens_mti_ros2_driver -- -j16 -l16
-Invoked command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/dell/sensor_fusion/build/xsens_mti_ros2_driver -- -j16 -l16
-Invoking command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/xsens_mti_ros2_driver
-Invoked command in '/home/dell/sensor_fusion/build/xsens_mti_ros2_driver' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/dell/sensor_fusion/build/xsens_mti_ros2_driver

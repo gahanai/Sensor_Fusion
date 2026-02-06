@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"/home/dell/sensor_fusion/build/my_robot_description/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
