@@ -1,17 +1,19 @@
 navsat_transform_node:
   ros__parameters:
-    frequency: 30.0
-    delay: 3.0
+    frequency: 10.0
+    delay: 0.0
     
     magnetic_declination_radians: -0.0175
+    yaw_offset: 0.0
     zero_altitude: true
     
     publish_filtered_gps: true
     broadcast_cartesian_transform: false
     
+    # CRITICAL: Now we CAN use odometry yaw because ekf_local provides it!
     use_odometry_yaw: true
     wait_for_datum: false
     
     base_link_frame: base_link
-    gps_frame: gps          # ← Changed from gps_link
+    gps_frame: gps
     world_frame: odom

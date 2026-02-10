@@ -5,76 +5,80 @@ from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
     
-    ekf_config = PathJoinSubstitution([
+    ekf_local_config = PathJoinSubstitution([
         FindPackageShare('sensor_fusion_localization'),
         'config',
-        'ekf.yaml'
+        'ekf_local.yaml'
+    ])
+    
+    ekf_global_config = PathJoinSubstitution([
+        FindPackageShare('sensor_fusion_localization'),
+        'config',
+        'ekf_global.yaml'
     ])
     
     navsat_config = PathJoinSubstitution([
         FindPackageShare('sensor_fusion_localization'),
         'config',
-        'navsat.yaml'
+        'navsat_dual_ekf.yaml'
     ])
     
     return LaunchDescription([
         
-        # Static TF: base_link → imu_link
+        # ========== STATIC TRANSFORMS ==========
         Node(
             package='tf2_ros',
             executable='static_transform_publisher',
-            name='base_to_imu_broadcaster',
+            name='base_to_imu',
             arguments=['--x', '0', '--y', '0', '--z', '0',
                        '--roll', '0', '--pitch', '0', '--yaw', '0',
                        '--frame-id', 'base_link', '--child-frame-id', 'imu_link']
         ),
         
-        # Static TF: base_link → gps
         Node(
             package='tf2_ros',
             executable='static_transform_publisher',
-            name='base_to_gps_broadcaster',
+            name='base_to_gps',
             arguments=['--x', '0', '--y', '0', '--z', '0.5',
                        '--roll', '0', '--pitch', '0', '--yaw', '0',
                        '--frame-id', 'base_link', '--child-frame-id', 'gps']
         ),
         
-        # Navsat Transform Node - START FIRST
+        # ========== EKF LOCAL (IMU only, odom→base_link) ==========
+        Node(
+            package='robot_localization',
+            executable='ekf_node',
+            name='ekf_local_filter_node',
+            output='screen',
+            parameters=[ekf_local_config],
+            remappings=[
+                ('odometry/filtered', '/odometry/local')
+            ]
+        ),
+        
+        # ========== NAVSAT TRANSFORM (GPS→map coordinates) ==========
         Node(
             package='robot_localization',
             executable='navsat_transform_node',
             name='navsat_transform_node',
             output='screen',
-            parameters=[{
-                'frequency': 10.0,  # Reduced to match GPS rate
-                'delay': 3.0,       # Wait 3 seconds for sensors to stabilize
-                'magnetic_declination_radians': -0.0175,
-                'yaw_offset': 0.0,
-                'zero_altitude': True,
-                'publish_filtered_gps': True,
-                'broadcast_cartesian_transform': False,
-                'use_odometry_yaw': True,   # Changed to true - use EKF yaw
-                'wait_for_datum': False,
-                'base_link_frame': 'base_link',
-                'gps_frame': 'gps',
-                'world_frame': 'odom',
-            }],
+            parameters=[navsat_config],
             remappings=[
-                ('imu', '/imu/data'),
+                ('imu/data', '/imu/data'),
                 ('gps/fix', '/fix'),
-                ('odometry/filtered', 'odometry/local')
+                ('odometry/filtered', '/odometry/local')  # Gets IMU odometry from ekf_local
             ]
         ),
         
-        # EKF Filter Node - START SECOND
+        # ========== EKF GLOBAL (GPS, map→odom correction) ==========
         Node(
             package='robot_localization',
             executable='ekf_node',
-            name='ekf_filter_node',
+            name='ekf_global_filter_node',
             output='screen',
-            parameters=[ekf_config],
+            parameters=[ekf_global_config],
             remappings=[
-                ('odometry/filtered', 'odometry/local')
+                ('odometry/filtered', '/odometry/global')
             ]
         ),
     ])
